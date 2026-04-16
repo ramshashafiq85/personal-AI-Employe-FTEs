@@ -1,0 +1,15 @@
+{
+  "gmail": {
+    "status": "expired",
+    "message": "Gmail token expired, refresh token present."
+  },
+  "whatsapp": {
+    "status": "healthy",
+    "message": "WhatsApp session folder exists and is active."
+  },
+  "sync": {
+    "status": "healthy",
+    "message": "Vault sync is up to date."
+  },
+  "timestamp": "2026-04-16T21:56:29.645860"
+}
