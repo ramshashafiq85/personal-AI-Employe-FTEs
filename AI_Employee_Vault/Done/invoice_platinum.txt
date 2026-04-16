@@ -1,0 +1,4 @@
+Invoice #: PLATINUM-001
+Amount: $1,000.00
+Client: Big Corp
+Description: Platinum Tier Development Services
