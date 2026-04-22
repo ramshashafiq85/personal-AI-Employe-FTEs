@@ -1,0 +1,8 @@
+
+    1 ---
+    2 type: invoice
+    3 from: "Apollo Media"
+    4 amount: 2500.00
+    5 date: 2026-04-22
+    6 priority: high
+    7 ---
