@@ -1,0 +1,5 @@
+Invoice #: INV-2026-005
+Date: March 31, 2026
+Amount: $250.00
+Client: Tech Solutions Inc.
+Description: Web development services
