@@ -1,0 +1,7 @@
+{
+  "type": "email_draft",
+  "to": "client@example.com",
+  "subject": "Urgent: Project Update Needed",
+  "timestamp": "2026-04-11T19:37:16.628774",
+  "status": "pending_approval"
+}

@@ -1,0 +1,10 @@
+{
+  "prompt": "Process all pending files and move them to Done",
+  "iteration": 2,
+  "max_iterations": 3,
+  "started": "2026-04-11T18:38:21.049378",
+  "last_check": "2026-04-11T18:38:21.049389",
+  "status": "max_iterations_reached",
+  "ended": "2026-04-11T18:38:23.093781",
+  "total_iterations": 3
+}

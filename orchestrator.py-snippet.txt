@@ -1,0 +1,24 @@
+if __name__ == "__main__":
+    # FAILSAFE HARDCODED ROOT PATH
+    vault_path = Path("C:/Users/Dell/Documents/GitHub/personal-AI-Employe-FTEs/AI_Employee_Vault")
+    
+    if not vault_path.exists():
+        # Fallback for flexibility
+        script_dir = Path(__file__).parent.absolute()
+        if (script_dir / "AI_Employee_Vault").exists():
+            vault_path = script_dir / "AI_Employee_Vault"
+        elif (script_dir.parent / "AI_Employee_Vault").exists():
+            vault_path = script_dir.parent / "AI_Employee_Vault"
+    
+    print(f"✅ MASTER OFFICE ACTIVE: {vault_path.absolute()}")
+    
+    # Ensure all folders exist
+    for folder in ["Needs_Action", "Plans", "Pending_Approval", "Approved", "Rejected", "Done", "Logs"]:
+        (vault_path / folder).mkdir(parents=True, exist_ok=True)
+    
+    orchestrator = Orchestrator(vault_path=str(vault_path))
+    
+    if "--once" in sys.argv:
+        orchestrator.run_cycle()
+    else:
+        orchestrator.run_continuous(interval=10)

@@ -1,0 +1,16 @@
+{
+  "id": "983d3aec21e1",
+  "type": "command",
+  "sender": "cloud",
+  "receiver": "local",
+  "timestamp": "2026-04-11T19:37:16.682503",
+  "payload": {
+    "command": "email_draft_ready",
+    "params": {
+      "to": "client@example.com",
+      "subject": "Urgent: Project Update Needed"
+    }
+  },
+  "status": "sent",
+  "acknowledged": false
+}

@@ -1,0 +1,8 @@
+{
+  "type": "invoice_approval",
+  "vendor": "\"Tech Solutions Global\"",
+  "amount": "1500.00",
+  "currency": "USD",
+  "timestamp": "2026-04-20T18:43:46.885832",
+  "status": "pending_local_approval"
+}

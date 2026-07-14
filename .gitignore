@@ -1,0 +1,63 @@
+# ============================================================
+# Platinum Tier: Security Boundary
+# Secrets NEVER sync to cloud. Never commit to version control.
+# ============================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.egg-info/
+venv/
+env/
+
+# Environment & Secrets
+.env
+.env.*
+*.key
+*.pem
+*.crt
+*.token
+*.pickle
+token.pickle
+gmail_token.pickle
+credentials.json
+service_account.json
+secrets.json
+config.yaml
+
+# SSL/TLS
+ssl/
+
+# Odoo (local data)
+odoo-data/
+postgres-data/
+
+# WhatsApp Session (local only)
+.whatsapp_session/
+
+# Database dumps
+*.sql
+*.dump
+
+# Logs (local audit trail)
+logs/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker volumes
+volumes/
